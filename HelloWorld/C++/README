@@ -1,0 +1,4 @@
+How to run: g++ HelloWorld.cpp -o HelloWorld
+	    ./HelloWorld
+
+Notes: After the first command, "HelloWorld" executable file is created. Can be renamed to anything.

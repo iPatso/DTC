@@ -1,0 +1,4 @@
+How to run: javac HelloWorld.java
+	    java HelloWorld
+
+Notes: After running the first command (compilation), a new file "HelloWorld.class" is created and needed to run the second command. Can be renamed.
