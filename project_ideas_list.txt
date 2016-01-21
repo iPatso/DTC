@@ -1,0 +1,4 @@
+.Sorting Algorithms
+.Searching Algorithms
+.Inventory Database/Organizer (Probably just a prototype for a bigger idea)
+.Simple Message Encryption/Decryption
