@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                 layout.setVisibility(View.VISIBLE);
 
                 if (isDraw)
-                    winnerString = "It's a raw!";
+                    winnerString = "It's a Draw!";
                 else if (winnerInt == YELLOW)
                     winnerString = "YELLOW is the winner!";
                 else
