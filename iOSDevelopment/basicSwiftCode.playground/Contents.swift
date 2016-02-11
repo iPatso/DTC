@@ -116,13 +116,54 @@ if username == "xNINJAx" && password == "hingaDinga4" {
 	print ("Incorrect username and password")
 }
 
-//
+//For loops
+for var i = 2; i <= 20; i += 2 {
+	print( i )
+}
 
+print("-------")
 
+var arrr = [1,42,3,7]
 
+for x in arrr {
+	//Cannot change x
+	print (x)
+}
 
+print("-------")
 
+for (index, value) in arrr.enumerate() {
+	arrr[index] = value + 1
+}
+print (arrr)
 
+print("-------")
+
+//Practice: Create array. Half all values in array.
+//Define as array of doubles
+var ar:[Double] = [6,2,45,7,20,265,724]
+for (index, value) in ar.enumerate() {
+	ar[index] = value / 2.0
+}
+print(ar)
+
+print("-------")
+
+//While loops
+var ii = 1
+while ii <= 10 {
+	print(ii*5)
+	ii++
+}
+
+print("-------")
+
+var myArray = [3,5,26,52,9]
+ii = 0
+while ii < myArray.count {
+	print(myArray[ii])
+	ii++
+}
 
 
 
