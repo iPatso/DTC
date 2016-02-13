@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Title-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Navigation_Bar_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tVt-VH-DF3">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="8Ar-jt-5Ij"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Navigation Bars" id="cXz-JB-5gT">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="E5u-fC-VaJ"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="UmS-LJ-gHS">
+                                            <color key="tintColor" red="0.0030972877033554891" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uAi-vk-aP4">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ZZh-kk-Yh6"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem systemItem="stop" id="72g-KC-Hzz"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="rdI-ee-D0y"/>
+                                    <barButtonItem systemItem="play" id="p68-W2-lO9">
+                                        <connections>
+                                            <action selector="playButton:" destination="BYZ-38-t0r" id="Zps-jp-pXt"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="9YQ-Vs-8y8"/>
+                                    <barButtonItem title="Lap" id="fMN-hE-1Hh"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="vpq-5e-55A"/>
+                                    <barButtonItem systemItem="action" id="v2R-H7-Igp"/>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[TIME]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="caT-Zf-5o8">
+                                <rect key="frame" x="93" y="190" width="415" height="219"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="caT-Zf-5o8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="73" id="B3k-ap-0gT"/>
+                            <constraint firstItem="uAi-vk-aP4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Fv7-Lb-NhW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="caT-Zf-5o8" secondAttribute="trailing" constant="72" id="MDb-id-kFC"/>
+                            <constraint firstItem="uAi-vk-aP4" firstAttribute="top" secondItem="caT-Zf-5o8" secondAttribute="bottom" constant="147" id="dB2-wN-QFc"/>
+                            <constraint firstItem="caT-Zf-5o8" firstAttribute="top" secondItem="tVt-VH-DF3" secondAttribute="bottom" constant="126" id="jLo-Zw-cJZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uAi-vk-aP4" secondAttribute="trailing" constant="-20" id="klL-ox-X4c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tVt-VH-DF3" secondAttribute="trailing" constant="-20" id="lKf-Yw-dTQ"/>
+                            <constraint firstItem="tVt-VH-DF3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="pJe-8X-U3C"/>
+                            <constraint firstItem="tVt-VH-DF3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="sLJ-5N-1lp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uAi-vk-aP4" secondAttribute="bottom" id="zFb-TS-2UU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="SDW-6I-XWY"/>
+                    <connections>
+                        <outlet property="timeLabel" destination="caT-Zf-5o8" id="C72-zn-Gnn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="700" y="367"/>
+        </scene>
+    </scenes>
+</document>
