@@ -1,29 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/#Scripts/MusicPlayer.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Clicker/Assets/CameraAspectController.cs">
     <Files>
-      <File FileName="Assets/Entities/Enemy/EnemyBehavior.cs" Line="12" Column="30" />
-      <File FileName="Assets/#Scripts/ScoreKeeper.cs" Line="8" Column="21" />
-      <File FileName="Assets/Entities/Player/PlayerController.cs" Line="72" Column="30" />
-      <File FileName="Assets/#Scripts/FinalScoreOutput.cs" Line="9" Column="8" />
-      <File FileName="Assets/#Scripts/MusicPlayer.cs" Line="37" Column="21" />
+      <File FileName="../Clicker/Assets/CameraAspectController.cs" Line="12" Column="26" />
+      <File FileName="../Block Breaker/Assets/Scripts/Ball.cs" Line="32" Column="5" />
+      <File FileName="Assets/Entities/Player/PlayerController.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="#Scripts" expanded="True">
-              <Node name="MusicPlayer.cs" selected="True" />
-            </Node>
-            <Node name="Entities" expanded="True">
-              <Node name="Enemy" expanded="True" />
-              <Node name="EnemyFormation" expanded="True" />
-              <Node name="Player" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
